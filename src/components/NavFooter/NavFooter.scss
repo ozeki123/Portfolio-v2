@@ -1,0 +1,51 @@
+.nav-footer{
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  bottom: 50px;
+  padding: 0 4.5vw;
+  font-family: "Neue-Montreal";
+  font-size: 0.8rem;
+  pointer-events: none;
+  z-index: 999;
+  ul{
+    display: flex;
+    list-style: none;
+    li{
+      a{
+        text-decoration: none;
+        color: rgb(197, 197, 197);
+        pointer-events: auto !important;
+      }
+      &:last-child{
+        margin-left: 16px;
+        
+      }
+    }
+    
+  }
+  .scroll-indicator{
+    display: flex;
+    align-items: center;
+    // text-transform: uppercase;
+    p{
+      margin-right: 16px;
+      letter-spacing: 0.3px;
+    }
+    .border{
+      border: 1px solid #525252;
+      padding: 10px;
+      border-radius: 30px;
+      svg{
+        fill: #d3d3d3;
+        height: 18px;
+        width: 18px;
+        
+        // padding: 14px;
+        
+      }
+    }
+    
+  }
+}
